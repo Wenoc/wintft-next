@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import { request, gql } from "graphql-request";
 
-const graphqlAPI = process.env.NEXT_PUBLIC_GRAPHCMS_ENDPOINT;
+const graphqlAPI = "https://king-prawn-app-6arrs.ondigitalocean.app/graphql";
 
 export const getPosts = async () => {
   const BLOGS = gql`
