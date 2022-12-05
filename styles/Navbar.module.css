@@ -1,0 +1,30 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    background-color: #1f2534;
+    height: 66px;
+    width: 100%;
+}
+
+.linkContainer{
+    padding: 0 24px;
+    height: 100%;
+    margin: 0   auto;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    font-size: 22px;
+    color: white;
+    margin: 0;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #fa9c43;
+    transition: 0.2s;
+}

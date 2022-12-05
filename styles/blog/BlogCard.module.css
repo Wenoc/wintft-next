@@ -1,0 +1,58 @@
+.Card{
+    width: 350px;
+    height: 400px;
+    background-color: #1f2534;
+    border-radius: 10px 10px 4px 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgContainer img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 196px;
+}
+
+.CardContent{
+    height: 100%;
+    padding: 16px;
+    padding-top: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.CardContent h2{
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+
+.CardDetails{
+    display: flex;
+    align-items: center;
+    color: grey;
+    justify-content: space-between;
+}
+
+.CardTags{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 18px;
+    gap: 12px;
+    font-size: 14px;
+    color: grey;
+    height: 33px;
+}
+
+.Author p{
+    margin: 0;
+    margin-left: 2px;
+}
+
+.Author span{
+    color: orange;
+    font-weight: 500;
+}

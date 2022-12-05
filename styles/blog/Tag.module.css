@@ -1,0 +1,16 @@
+.BlogTag{
+    color: white;
+    background-color: green;
+    padding: 4px 20px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.BlogTag span{
+    font-size: 16px;
+    font-weight: 600;
+}
