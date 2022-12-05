@@ -51,7 +51,7 @@
 
 @media (max-width: 767px){
   :root{
-    background-attachment: initial;
+    background: rgb(12, 17, 24);
   }
 }
 
