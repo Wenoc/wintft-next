@@ -1,4 +1,5 @@
-import { Analytics } from "@vercel/analytics/dist/react";
+// eslint-disable-next-line import/no-unresolved
+import { Analytics } from "@vercel/analytics/react";
 import Layout from "../components/general/Layout";
 import "../styles/globals.css";
 
