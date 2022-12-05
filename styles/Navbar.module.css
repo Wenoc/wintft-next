@@ -1,9 +1,10 @@
 .navbar{
     position: fixed;
     top: 0;
-    background-color: #1f2534;
+    background-color: #22242f;
     height: 66px;
     width: 100%;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 20%);
 }
 
 .linkContainer{

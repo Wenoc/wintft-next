@@ -34,7 +34,8 @@
 
 :root{
   font-family: "NotoSans";
-  background-color: #0b1017;
+  background: linear-gradient(rgba(0,0,0,.92),rgba(0,0,0,.92)), url("http://localhost:3000/background.webp") no-repeat center;
+  background-attachment: fixed;
 }
 
 .middle{
