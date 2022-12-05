@@ -49,6 +49,12 @@
   background-size: cover;
 }
 
+@media (max-width: 767px){
+  :root{
+    background-attachment: initial;
+  }
+}
+
 
 .middle{
   width: 100%;
