@@ -4,7 +4,7 @@ import Image from "next/image";
 import Tag from "./Tag";
 import styles from "../../styles/blog/BlogCard.module.css";
 
-export default function BlogCard() {
+export default function BlogCard({ title, date, tags }) {
   return (
     <div className={styles.Card}>
       <Link href="/">
@@ -19,18 +19,21 @@ export default function BlogCard() {
         </div>
       </Link>
       <div className={styles.CardContent}>
-        <h2>How to play reroll kai'sa like a challenger</h2>
+        <h2>{title}</h2>
         <div>
           <div className={styles.CardDetails}>
             <div className={styles.Author}>
               <p>
-                November 19, 2022 - <span>Hower</span>
+                {date} - <span>Hower</span>
               </p>
             </div>
           </div>
           <div className={styles.CardTags}>
-            <Tag />
-            <Tag />
+            {tags.data.map((tag) => (
+              <div key={tag.id}>
+                <Tag name={tag.attributes.name} />
+              </div>
+            ))}
           </div>
         </div>
       </div>
