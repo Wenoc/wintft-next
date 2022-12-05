@@ -3,10 +3,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import BlogCard from "../components/blog/BlogCard";
-import styles from "../styles/blog/Blog.module.css";
-import Tag from "../components/blog/Tag";
-import { getPosts } from "../services";
+import BlogCard from "../../components/blog/BlogCard";
+import styles from "../../styles/blog/Blog.module.css";
+import Tag from "../../components/blog/Tag";
+import { getPosts } from "../../services";
 
 export default function guides({ posts }) {
   const [kereses, setKereses] = useState("");
@@ -108,6 +108,7 @@ export default function guides({ posts }) {
               title={post.attributes.title}
               date={post.attributes.date}
               tags={post.attributes.categories}
+              url={post.attributes.url}
             />
           ))}
         </div>

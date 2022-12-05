@@ -4,10 +4,11 @@ import Image from "next/image";
 import Tag from "./Tag";
 import styles from "../../styles/blog/BlogCard.module.css";
 
-export default function BlogCard({ title, date, tags }) {
+export default function BlogCard({ title, date, tags, url }) {
+  const Url = `guides/${url}`;
   return (
     <div className={styles.Card}>
-      <Link href="/">
+      <Link href={Url}>
         <div className={styles.imgContainer}>
           <Image
             src="/BlogBackgrounds/1a.webp"
