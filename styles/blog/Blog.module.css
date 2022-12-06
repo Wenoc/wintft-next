@@ -16,7 +16,7 @@
     color: rgb(187, 187, 187);
     background-color: #22242f;
     border-radius: 2px;
-    outline: 0;
+    outline: 1px solid #353741;
     border: 0;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .hDown p span {
-    color: orange;
+    color: #FFA630;
 }
 
 .hTagContainer{

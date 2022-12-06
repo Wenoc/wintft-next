@@ -1,12 +1,19 @@
 .title{
     color: white;
-    font-size: 22px;
+    font-size: 36px;
+    margin-bottom: 28px;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 .mainText{
+    font-size: 18px;
     color: #efefee;
     font-weight: 500;
+}
+
+.mainText img{
+    max-width: 100%;
 }
 
 .detailsPage{
@@ -16,7 +23,7 @@
 .smallNav{
     color: white;
     margin: 0;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .smallNav a{
@@ -26,12 +33,44 @@
 }
 
 .mainText h3{
-    margin-bottom: 0;
-    margin-top: 12px;
+    margin-bottom: 4px;
+    margin-top: 16px;
+    font-size: 28px;
+}
+
+.mainText ul{
+    font-size: 22px;
+    color: rgb(245, 203, 125);
+    list-style-type:disc
+}
+
+.mainText ul a{
+    font-size: 22px;
+    color: rgb(245, 203, 125);
 }
 
 .mainText p{
     margin: 0;
+    font-size: 18px;
     margin-bottom: 12px;
-    color: #aaa;
+    color: #c0c0c0;
+}
+
+@media (max-width:760px){
+    .mainText{
+        font-size: 16px;
+    }
+
+    .mainText h3{
+        font-size: 22px;
+    }
+
+    .title{
+        font-size: 24px;
+    }
+
+    .mainText ul{
+        font-size: 18px;
+        color: rgb(245, 203, 125);
+    }
 }
